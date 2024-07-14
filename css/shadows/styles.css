@@ -1,0 +1,20 @@
+h1{
+    text-shadow:2px 2px greenyellow;
+    /* parameter three adds blur ness */
+    text-shadow:2px 2px 2px greenyellow;
+    /* multiple shadows */
+    text-shadow:2px 2px 2px purple,7px 7px 7px pink;
+}
+.box{
+    border:1px solid black;
+    margin:10px;
+    height:100px;
+    width:100px;
+    background:aqua;
+    box-shadow:5px 5px 5px pink;
+    /* left side shadow */
+    box-shadow:-5px -5px 5px red;
+    /* multiple shadows */
+    box-shadow:-5px -5px 5px red,5px 5px 5px pink;
+
+}

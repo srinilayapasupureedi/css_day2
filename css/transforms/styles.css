@@ -1,0 +1,22 @@
+.box{
+    /* transform:translate(100px,200px);
+    /* 1st parameter represent x axis 2nd parameter represent y axis */
+    /* when x axis is 0 it moves in vertical direction */
+    /* when y is 0 then its moves in horizantal direction */
+    /* transform:translate(0,200px);
+    transform:translate(200px,0);
+    transform: translateX(100px);*/
+    background-color: aqua; 
+    /* transform:rotate(45deg); */
+    transform:scale(1,5);
+    /* saclex annd scale y also available */
+    /* x-horiznatal scaling */
+    transform: scaleX(10);
+    /* y-vertical scaling */
+    transform:scaleY(14);
+    /* skew-ntg but tilting the text */
+    transform: skewX(32deg);
+    transform: skewY(32deg);
+
+
+}
